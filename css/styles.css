@@ -1,13 +1,13 @@
-a:link { text-decoration: none; }
+.titlelink:link { text-decoration: none; }
 
 
-a:visited { text-decoration: none; }
+.titlelink:visited { text-decoration: none; }
 
 
-a:hover { text-decoration: none; }
+.titlelink:hover { text-decoration: none; }
 
 
-a:active { text-decoration: none; }
+.titlelink:active { text-decoration: none; }
 
 @charset "UTF-8";
 /*!
