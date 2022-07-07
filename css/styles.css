@@ -4245,11 +4245,7 @@ textarea.form-control-lg {
   overflow-y: auto;
 }
 
-@media (min-width: 480px) {
-  .masthead {
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/ws_logo.png");
-  }
-}
+
 
 @media (min-width: 576px) {
 
@@ -11720,4 +11716,9 @@ body {
   margin-top: 3rem;
   height: 30%;
   width: 30%;
+}
+@media (max-width: 480px) {
+  .masthead {
+    background: url("../assets/img/ws_logo.png");
+  }
 }
