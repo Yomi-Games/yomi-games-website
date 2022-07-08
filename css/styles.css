@@ -11523,12 +11523,12 @@ body {
   }
   #mainNav .navbar-brand {
     padding: 0.5rem 0;
-    color: #7c7a71;
+    color: #fff;
   }
   #mainNav .nav-link {
     transition: none;
     padding: 2rem 1.5rem;
-    color: #7c7a71;
+    color: #fff;
   }
   #mainNav .nav-link:hover {
     color: rgba(255, 255, 255, 0.75);
@@ -11625,7 +11625,7 @@ body {
 }
 
 .projects-section {
-  padding: 10rem 0;
+  padding: 4rem 0;
 }
 .projects-section .featured-text {
   padding: 2rem;
@@ -11717,9 +11717,24 @@ body {
   height: 30%;
   width: 30%;
 }
+#mobile-masthead-img {
+  display:  none;
+}
 @media (max-width: 480px) {
   .masthead {
-    background: url("../assets/img/ws_logo.png"); 
-    background-color: #000000;
+    background: none; 
+    background-color: #2b1ae7;
+    background-image: linear-gradient(#2a13e2, #a137bc, #f85900);
+    padding: 0;
+    min-height: 0;
+    overflow:  auto;
+  }
+  .none-480 {
+    display:  none!important;
+  }
+  #mobile-masthead-img {
+    display:  block;
+    width:  95%;
+    margin:  8rem auto 4rem;
   }
 }
