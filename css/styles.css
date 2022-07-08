@@ -11523,12 +11523,12 @@ body {
   }
   #mainNav .navbar-brand {
     padding: 0.5rem 0;
-    color: #7c7a71;
+    color: #fff;
   }
   #mainNav .nav-link {
     transition: none;
     padding: 2rem 1.5rem;
-    color: #7c7a71;
+    color: #fff;
   }
   #mainNav .nav-link:hover {
     color: rgba(255, 255, 255, 0.75);
@@ -11625,7 +11625,7 @@ body {
 }
 
 .projects-section {
-  padding: 10rem 0;
+  padding: 4rem 0;
 }
 .projects-section .featured-text {
   padding: 2rem;
