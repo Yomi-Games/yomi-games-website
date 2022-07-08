@@ -11719,6 +11719,7 @@ body {
 }
 @media (max-width: 480px) {
   .masthead {
-    background: url("../assets/img/ws_logo.png");
+    background: url("../assets/img/ws_logo.png"); 
+    background-color: #000000;
   }
 }
