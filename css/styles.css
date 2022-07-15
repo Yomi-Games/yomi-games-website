@@ -11720,6 +11720,28 @@ body {
 #mobile-masthead-img {
   display:  none;
 }
+h4.text-white {
+  margin-bottom: 1.4rem
+}
+
+@media (max-width: 1400px) {
+  .projects-section .project-text {
+    padding: 4rem;
+  }
+}
+@media (max-width: 1200px) {
+  .projects-section .project-text {
+    padding: 1.5rem;
+  }
+}
+@media (max-width: 992px) {
+  .projects-section .project-text {
+    padding: 5rem;
+  }
+  .mb-5 {
+    margin-bottom: 0rem !important;
+  }
+} 
 @media (max-width: 480px) {
   .masthead {
     background: none; 
