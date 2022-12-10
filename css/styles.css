@@ -7571,6 +7571,10 @@ textarea.form-control-lg {
   margin-bottom: 3rem !important;
 }
 
+.mb-10 {
+  margin-bottom: 10rem !important;
+}
+
 .mb-auto {
   margin-bottom: auto !important;
 }
@@ -11619,7 +11623,7 @@ body {
   }
 }
 
-.about-section {
+.about-section, .apk-section {
   padding-top: 5rem;
   background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
 }
