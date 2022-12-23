@@ -1,0 +1,35 @@
+//https://obfuscator.io/ used
+
+var downloadButton = document.querySelector('#downloadButton');
+var form = document.querySelector('#betaForm');
+var p = 'onibeta';
+var par = document.createElement("p");
+par.classList.add("text-white-50");
+var textNode = document.createTextNode("Remember to only download the Yomi Gardens Android APK from this webpage. ");
+par.appendChild(textNode);
+var a = document.createElement("a");
+a.setAttribute("href", "https://drive.google.com/file/d/1D5jqrWt8t0LxM61hME4eu-lsD8gjil6s/view?usp=sharing");
+a.setAttribute("target", "_blank");
+var aTextNode = document.createTextNode("Download 12-22-22 version here.");
+a.appendChild(aTextNode);
+par.appendChild(a);
+
+form.addEventListener("submit", doThis);
+
+downloadButton.addEventListener("click", doThis);
+
+function doThis(){
+
+    var passwordInput = document.querySelector('#password');
+    console.log(passwordInput.value);
+
+    if (passwordInput.value === p){
+        var element = document.getElementById("submitSuccessMessage");
+        element.appendChild(par);
+
+        element.classList.remove("d-none");
+
+    }
+
+    event.preventDefault();
+}
