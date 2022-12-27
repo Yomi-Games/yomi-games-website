@@ -8,7 +8,7 @@ par.classList.add("text-white-50");
 var textNode = document.createTextNode("Remember to only download the Yomi Gardens Android APK from this webpage. ");
 par.appendChild(textNode);
 var a = document.createElement("a");
-a.setAttribute("href", "https://drive.google.com/file/d/1D5jqrWt8t0LxM61hME4eu-lsD8gjil6s/view?usp=sharing");
+a.setAttribute("href", "https://drive.google.com/file/d/1tFosW4aPCSnhN5pcvLHhBAG6yumb3_5N/view?usp=sharing");
 a.setAttribute("target", "_blank");
 var aTextNode = document.createTextNode("Download 12-22-22 version here.");
 a.appendChild(aTextNode);
